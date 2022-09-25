@@ -86,5 +86,6 @@ describe('Teste o componente <Pokedex.js />', () => {
       name: 'All',
     });
     expect(buttonAll).toBeInTheDocument();
+    userEvent.click(buttonAll);
   });
 });
